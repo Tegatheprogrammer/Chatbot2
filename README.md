@@ -42,70 +42,63 @@ A modern web application that combines AI-powered movie suggestions with TMDB mo
 ## How to Set Up and Run the FAZAR Movie Recognition App
 1. Download the FileS
 
-Download the movie_recognition_app.zip file.
-
-Extract it to a folder on your computer.
+-Download the movie_recognition_app.zip file.
+-Extract it to a folder on your computer.
 
 3. Install Python
-Download and install Python from python.org.
-
-Important: During installation, check "Add Python to PATH" to avoid any issues later.
+-Download and install Python from python.org.
+-Important: During installation, check "Add Python to PATH" to avoid any issues later.
 
 4. Open Terminal or Command Prompt
 
-Mac: Open Terminal.
-
-Windows: Open Command Prompt.
+-Mac: Open Terminal.
+-Windows: Open Command Prompt.
 
 5. Navigate to the Extracted Folder
    
-Run the following command in Terminal or Command Prompt:
+-Run the following command in Terminal or Command Prompt:
 
-bash
+-bash
+-Copy
+-Edit
 
-Copy
+-cd path/to/extracted/folder
 
-Edit
-
-cd path/to/extracted/folder
-
-(Replace "path/to/extracted/folder" with the actual path where you extracted the files.)
+-(Replace "path/to/extracted/folder" with the actual path where you extracted the files.)
 
 5. Install Required Packages
    
 Run the following command to install the necessary dependencies:
 
-bash
-
-Copy
-
-Edit
+-bash
+-Copy
+-Edit
 
 pip install -r requirements.txt
 
 6. Create an Environment File
 
-In the extracted folder, create a new file named .env.
+-In the extracted folder, create a new file named .env.
 
-Open the file and add the following lines:
+-Open the file and add the following lines:
 
-Copy
+-Copy
+-Edit
 
-Edit
+-TMDB_API_KEY=b4f009f633383dd06923ff49450c59b1
 
-TMDB_API_KEY=b4f009f633383dd06923ff49450c59b1
+-RAPIDAPI_KEY=70555fcaffmsh4d70f98f2a5e381p14dacejsnb9c9a49598f3
 
-RAPIDAPI_KEY=70555fcaffmsh4d70f98f2a5e381p14dacejsnb9c9a49598f3
-RAPIDAPI_HOST=search-gpt.p.rapidapi.com
+-RAPIDAPI_HOST=search-gpt.p.rapidapi.com
 
 
 8. Start the Server
    
 Run the following command:
 
-bash
-Copy
-Edit
+-bash
+-Copy
+-Edit
 python app.py
 
 8.1. Open the App
@@ -116,16 +109,23 @@ Start searching for movies by describing them!
 
 9. Example Searches
 Try searching for movies using descriptions like:
+
 ✅ "A movie about a father looking for his lost son in the ocean with a forgetful fish."
+
 ✅ "A movie where people enter dreams to plant ideas in someone's mind."
+
 ✅ "A movie about toys that come to life when humans aren't around."
 
 ## Troubleshooting Tips
 If you run into any issues:
 ✔️ Ensure Python is installed and added to PATH.
+
 ✔️ Verify that all files are in the same folder.
+
 ✔️ Check that the .env file exists and contains the correct API keys.
+
 ✔️ If port 5002 is in use, try changing the port number in app.py.
+
 ✔️ Restart your computer if the port is still busy.
 
 
