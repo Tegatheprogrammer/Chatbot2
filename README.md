@@ -39,50 +39,71 @@ A modern web application that combines AI-powered movie suggestions with TMDB mo
 - **APIs**: TMDB API, RapidAPI Search GPT
 - **Deployment**: Vercel (Frontend & Backend)
 
-## Local Development Setup
+## How to Set Up and Run the FAZAR Movie Recognition App
+1. Download the Files
+Download the movie_recognition_app.zip file.
+Extract it to a folder on your computer.
 
-Get the Files
-Download the movie_recognition_app.zip file
-Extract it to a folder on their computer
-Install Python
-Download and install Python from python.org
-Make sure to check "Add Python to PATH" during installation
-Open Terminal/Command Prompt
-On Mac: Open Terminal
-On Windows: Open Command Prompt
-Navigate to the Folder
+3. Install Python
+Download and install Python from python.org.
+Important: During installation, check "Add Python to PATH" to avoid any issues later.
+
+5. Open Terminal or Command Prompt
+Mac: Open Terminal.
+Windows: Open Command Prompt.
+
+7. Navigate to the Extracted Folder
+Run the following command in Terminal or Command Prompt:
+
 bash
-CopyInsert in Terminal
+Copy
+Edit
 cd path/to/extracted/folder
-Install Required Packages
+(Replace "path/to/extracted/folder" with the actual path where you extracted the files.)
+
+5. Install Required Packages
+Run the following command to install the necessary dependencies:
+
 bash
-CopyInsert in Terminal
+Copy
+Edit
 pip install -r requirements.txt
-Create Environment File
-Create a new file called .env in the folder
-Add these lines:
-CopyInsert
+6. Create an Environment File
+In the extracted folder, create a new file named .env.
+Open the file and add the following lines:
+ini
+Copy
+Edit
 TMDB_API_KEY=b4f009f633383dd06923ff49450c59b1
 RAPIDAPI_KEY=70555fcaffmsh4d70f98f2a5e381p14dacejsnb9c9a49598f3
 RAPIDAPI_HOST=search-gpt.p.rapidapi.com
-Start the Server
-bash
-CopyInsert in Terminal
-python app.py
-Open the App
-Open mr.html in a web browser
-Start searching for movies by describing them!
-Example Searches
-"A movie about a father looking for his lost son in the ocean with a forgetful fish"
-"A movie where people enter dreams to plant ideas in someone's mind"
-"A movie about toys that come to life when humans aren't around"
-If they run into any issues:
+7. Start the Server
+Run the following command:
 
-Make sure Python is installed and in PATH
-Verify all files are in the same folder
-Check that the .env file exists and contains the API keys
-Try a different port number in app.py if port 5002 is in use
-Restart the computer if the port is still busy
+bash
+Copy
+Edit
+python app.py
+8. Open the App
+Open the mr.html file in your web browser.
+Start searching for movies by describing them!
+9. Example Searches
+Try searching for movies using descriptions like:
+✅ "A movie about a father looking for his lost son in the ocean with a forgetful fish."
+✅ "A movie where people enter dreams to plant ideas in someone's mind."
+✅ "A movie about toys that come to life when humans aren't around."
+
+Troubleshooting Tips
+If you run into any issues:
+✔️ Ensure Python is installed and added to PATH.
+✔️ Verify that all files are in the same folder.
+✔️ Check that the .env file exists and contains the correct API keys.
+✔️ If port 5002 is in use, try changing the port number in app.py.
+✔️ Restart your computer if the port is still busy.
+
+
+
+
 ## Deployment Instructions
 
 
