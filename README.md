@@ -40,60 +40,87 @@ A modern web application that combines AI-powered movie suggestions with TMDB mo
 - **Deployment**: Vercel (Frontend & Backend)
 
 ## How to Set Up and Run the FAZAR Movie Recognition App
-1. Download the Files
+1. Download the FileS
+
 Download the movie_recognition_app.zip file.
+
 Extract it to a folder on your computer.
 
 3. Install Python
 Download and install Python from python.org.
+
 Important: During installation, check "Add Python to PATH" to avoid any issues later.
 
-5. Open Terminal or Command Prompt
+4. Open Terminal or Command Prompt
+
 Mac: Open Terminal.
+
 Windows: Open Command Prompt.
 
-7. Navigate to the Extracted Folder
+5. Navigate to the Extracted Folder
+   
 Run the following command in Terminal or Command Prompt:
 
 bash
+
 Copy
+
 Edit
+
 cd path/to/extracted/folder
+
 (Replace "path/to/extracted/folder" with the actual path where you extracted the files.)
 
 5. Install Required Packages
+   
 Run the following command to install the necessary dependencies:
 
 bash
+
 Copy
+
 Edit
+
 pip install -r requirements.txt
+
 6. Create an Environment File
+
 In the extracted folder, create a new file named .env.
+
 Open the file and add the following lines:
-ini
+
 Copy
+
 Edit
+
 TMDB_API_KEY=b4f009f633383dd06923ff49450c59b1
+
 RAPIDAPI_KEY=70555fcaffmsh4d70f98f2a5e381p14dacejsnb9c9a49598f3
 RAPIDAPI_HOST=search-gpt.p.rapidapi.com
-7. Start the Server
+
+
+8. Start the Server
+   
 Run the following command:
 
 bash
 Copy
 Edit
 python app.py
-8. Open the App
+
+8.1. Open the App
+
 Open the mr.html file in your web browser.
+
 Start searching for movies by describing them!
+
 9. Example Searches
 Try searching for movies using descriptions like:
 ✅ "A movie about a father looking for his lost son in the ocean with a forgetful fish."
 ✅ "A movie where people enter dreams to plant ideas in someone's mind."
 ✅ "A movie about toys that come to life when humans aren't around."
 
-Troubleshooting Tips
+## Troubleshooting Tips
 If you run into any issues:
 ✔️ Ensure Python is installed and added to PATH.
 ✔️ Verify that all files are in the same folder.
