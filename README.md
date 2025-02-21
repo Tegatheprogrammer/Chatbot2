@@ -19,7 +19,7 @@ DEY PLAYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY!!!!!
 
 
 
-# Movie Finder Application
+#FAZAR Movie Finder Application
 
 A modern web application that combines AI-powered movie suggestions with TMDB movie database search. Built with Flask backend and JavaScript frontend.
 
@@ -41,40 +41,48 @@ A modern web application that combines AI-powered movie suggestions with TMDB mo
 
 ## Local Development Setup
 
-### Backend Setup
-1. Install Python dependencies:
-```bash
-cd backend
+Get the Files
+Download the movie_recognition_app.zip file
+Extract it to a folder on their computer
+Install Python
+Download and install Python from python.org
+Make sure to check "Add Python to PATH" during installation
+Open Terminal/Command Prompt
+On Mac: Open Terminal
+On Windows: Open Command Prompt
+Navigate to the Folder
+bash
+CopyInsert in Terminal
+cd path/to/extracted/folder
+Install Required Packages
+bash
+CopyInsert in Terminal
 pip install -r requirements.txt
-```
-
-2. Set up environment variables:
-Create a `.env` file in the root directory with:
-```env
-TMDB_API_KEY=your_tmdb_api_key
-RAPIDAPI_KEY=your_rapidapi_key
+Create Environment File
+Create a new file called .env in the folder
+Add these lines:
+CopyInsert
+TMDB_API_KEY=b4f009f633383dd06923ff49450c59b1
+RAPIDAPI_KEY=70555fcaffmsh4d70f98f2a5e381p14dacejsnb9c9a49598f3
 RAPIDAPI_HOST=search-gpt.p.rapidapi.com
-```
-
-3. Run the Flask backend:
-```bash
+Start the Server
+bash
+CopyInsert in Terminal
 python app.py
-```
-The backend will run on http://localhost:5000
+Open the App
+Open mr.html in a web browser
+Start searching for movies by describing them!
+Example Searches
+"A movie about a father looking for his lost son in the ocean with a forgetful fish"
+"A movie where people enter dreams to plant ideas in someone's mind"
+"A movie about toys that come to life when humans aren't around"
+If they run into any issues:
 
-### Frontend Setup
-1. Install Node.js dependencies:
-```bash
-cd frontend
-npm install
-```
-
-2. Start the development server:
-```bash
-npm run dev
-```
-The frontend will run on http://localhost:3000
-
+Make sure Python is installed and in PATH
+Verify all files are in the same folder
+Check that the .env file exists and contains the API keys
+Try a different port number in app.py if port 5002 is in use
+Restart the computer if the port is still busy
 ## Deployment Instructions
 
 
