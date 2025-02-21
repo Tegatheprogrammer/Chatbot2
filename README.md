@@ -153,26 +153,40 @@ You can also deploy to:
 
 ## Project Structure
 ```
-project/
+movie_recognition_app/
+│
+├── # Frontend Files
+│   ├── mr.html           # Main HTML file with the search interface
+│   ├── mr.css            # Styles for the search interface
+│   └── script.js         # JavaScript for handling search and displaying results
+│
+├── # Backend Files
+│   ├── app.py            # Main Flask application
+│   └── backend/
+│       └── api/
+│           ├── routes.py         # API endpoints for movie search
+│           └── user_tracking.py  # Handles user limits and tracking
+│
+├── # Configuration Files
+│   ├── .env              # API keys and configuration
+│   └── requirements.txt  # Python package dependencies
+│
+└── README.md            # Instructions for setup and usage
+```
+
+
+```
+movie_recognition_app.zip
+├── mr.html
+├── mr.css
+├── script.js
+├── app.py
 ├── backend/
-│   ├── api/
-│   │   ├── movie_service.py
-│   │   └── routes.py
-│   ├── config/
-│   │   └── settings.py
-│   └── app.py
-├── frontend/
-│   ├── public/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── services/
-│   │   └── styles/
-│   ├── index.html
-│   └── package.json
 ├── .env
 ├── requirements.txt
-└── vercel.json
+└── README.md
 ```
+
 
 ## Submission Checklist
 - [ ] All code is properly commented and documented
