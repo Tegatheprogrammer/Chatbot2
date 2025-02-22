@@ -103,7 +103,7 @@ python app.py
 
 8.1. Open the App
 
-Open the mr.html file in your web browser.
+## ## Open the mr.html file in your web browser.
 
 Start searching for movies by describing them!
 
@@ -123,8 +123,6 @@ If you run into any issues:
 ✔️ Verify that all files are in the same folder.
 
 ✔️ Check that the .env file exists and contains the correct API keys.
-
-✔️ If port 5002 is in use, try changing the port number in app.py.
 
 ✔️ Restart your computer if the port is still busy.
 
